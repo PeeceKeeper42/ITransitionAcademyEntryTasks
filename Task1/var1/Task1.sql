@@ -1,0 +1,5 @@
+USE TESTDB;
+
+SELECT TOP 1 Name 
+FROM Employee
+ORDER BY Salary DESC;
